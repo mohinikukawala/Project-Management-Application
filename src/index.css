@@ -1,0 +1,6 @@
+.main-container{
+    display: flex;
+    height: 100vh;
+    gap: 5em;
+    margin-top: 5em;
+}

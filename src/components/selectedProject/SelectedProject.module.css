@@ -1,0 +1,38 @@
+.selectedProjectContainer{
+    width: 900px;
+    padding-top: 4em;
+
+    .date{
+        margin-top: unset;
+        font-size: 1.2em;
+        color: gray;
+    }
+
+    p{
+        white-space: pre-wrap;
+        font-size: 1.2em;
+        margin-bottom: 2em;
+    }
+}
+
+.projectNameContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1{
+        margin: unset;
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    button{
+        background-color: transparent;
+        color: rgb(92, 91, 91);
+        margin: unset;
+        
+        &:hover{
+            color:white;
+        }
+    }
+}

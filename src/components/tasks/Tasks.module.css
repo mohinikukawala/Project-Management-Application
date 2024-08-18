@@ -1,0 +1,39 @@
+.tasksContainer{
+    input{
+        width: 30%;
+        border-radius: 0.3em;
+        border: none;
+        background-color: rgb(225, 225, 225);
+        min-height: 3em;
+        font-size: 1em;
+    }
+
+    button{
+        background-color: transparent;
+        color: black;
+        border: 1px solid;
+
+        &:hover{
+            color: white;
+        }
+    }
+
+    span{
+        background-color: rgb(240, 240, 240);
+        margin-bottom: 0.25em;
+        display: flex;
+        align-items: center;
+        padding: 0.5em;
+    }
+
+    button{
+        margin: unset;
+    }
+
+    li{
+        color: black;
+        font-size: 1.3em;
+        font-weight: bold;
+    }
+
+}
